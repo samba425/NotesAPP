@@ -18,6 +18,7 @@
   background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
   border-radius: 50%;
   animation: float 20s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .auth-container::after {
@@ -30,6 +31,7 @@
   background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
   border-radius: 50%;
   animation: float 25s ease-in-out infinite reverse;
+  pointer-events: none;
 }
 
 @keyframes float {
